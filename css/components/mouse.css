@@ -17,4 +17,21 @@
    transform: translateX(-50%);
    background-color: #fff;
    border-radius: 0.5em;
+   animation-name: scrolling;
+   animation-duration: 2.5s;
+   animation-iteration-count: infinite;
+}
+
+@keyframes scrolling {
+   0% {
+      background-color: #fff;
+      top: 2.5em;
+   }
+   40% {
+      background-color: #fff;
+   }
+   100% {
+      background-color: transparent;
+      top: 7.5em;
+   }
 }
