@@ -6,6 +6,8 @@
 /* components */
 @import '../components/clock.css';
 @import '../components/mouse.css';
+@import '../components/progress-bar.css';
+@import '../components/button.css';
 /* CUSTOM STYLE BELOW THIS COMMENT LINE */
 
 /* hero */
@@ -25,6 +27,8 @@
    flex-direction: column;
    text-align: center;
    gap: 30px;
+   align-items: center;
+   align-self: center;
 }
 
 .logo {
@@ -52,7 +56,11 @@ footer.container {
    padding-top: 0;
 }
 
-.row.socials {
+footer > .row {
+   position: relative;
+}
+
+.socials {
    display: flex;
    justify-content: center;
    flex-wrap: wrap;
@@ -76,4 +84,10 @@ footer.container {
 .socials > a:hover {
    background-color: #fff;
    color: #03A9F4;
+}
+
+.back-to-top {
+   position: absolute;
+   top: -1.1em;
+   right: -0.6em;
 }
