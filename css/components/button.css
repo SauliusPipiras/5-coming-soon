@@ -1,12 +1,12 @@
 .btn {
-   padding: 0.5em 0.8em;
+   padding: 0.5em 0.9em;
    border: none;
    border-radius: 0.2em;
    text-decoration: none;
    text-align: center;
    color: white;
-   font-size: 20px;
-   line-height: 1em;
+   font-size: 14px;
+   line-height: 1.5em;
    background-color: #EA1E63;
    cursor: pointer;
    user-select: none;
